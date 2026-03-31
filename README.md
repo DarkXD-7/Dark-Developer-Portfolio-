@@ -1,9 +1,6 @@
-# 🔥 dark-devfolio
+# Developer Porfolio 
 
 A clean, dark-themed developer portfolio template — zero dependencies, no build tools, pure HTML/CSS/JS. Just edit one config object and ship.
-
-> **Made with ❤️ by [sae.py](https://github.com/saepy) | SynthX Development · © 2026**
-> Credits in the footer **must not be removed.**
 
 ---
 
@@ -221,14 +218,20 @@ This is a static site — deploy anywhere:
 
 ---
 
-## 📄 License
+## 📜 Credits & License
 
-MIT — free to use and modify for personal and commercial projects.
-
-**The footer credit line must remain intact and visible:**
 ```
 Made with ❤️ by sae.py | SynthX Development · © 2026
 ```
+
+This portfolio template is **free to use and modify** for personal and commercial use, provided:
+
+- ✅ You may change your name, content, colours, and projects freely.
+- ✅ You may deploy and publish this portfolio publicly.
+- ❌ **You must not remove or modify the footer credit line** (`Made with ❤️ by sae.py | SynthX Development`).
+- ❌ You must not claim authorship of the original template design.
+
+The footer credit is small, unobtrusive, and the only thing asked in return for a free, well-crafted template. Please respect it.
 
 ---
 
