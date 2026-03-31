@@ -43,7 +43,7 @@ const CONFIG = {
 
      "initials"        → Shows initials (default / fallback)
   ────────────────────────────────────────────────────────── */
-  avatarMode: "initials",          // "local" | "discord-lanyard" | "custom" | "initials"
+  avatarMode: "local",          // "local" | "discord-lanyard" | "custom" | "initials"
 
   localAvatarPath: "assets/avatar.png",   // used when avatarMode = "local"
 
