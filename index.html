@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-config="siteTitle">Your Name — Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero" data-config="navLogo">YN</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="dot-grid" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-avatar-wrap">
+        <div class="avatar-ring" aria-hidden="true"></div>
+        <div class="hero-avatar" id="heroAvatar"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-greeting" data-config="heroGreeting">Hello, I'm</p>
+        <h1 class="hero-name" data-config="heroName">Your Name</h1>
+        <p class="hero-role" data-config="heroRole">Frontend Developer</p>
+        <p class="hero-tagline" data-config="heroTagline">I build clean, fast, and accessible web experiences.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p data-config="aboutParagraph1">I'm a passionate frontend developer with a love for building beautiful and functional web applications. I focus on writing clean, maintainable code and delivering smooth user experiences that work across all devices.</p>
+          <p data-config="aboutParagraph2">When I'm not coding, you'll find me exploring new frameworks, contributing to open-source projects, or experimenting with side projects to sharpen my skills.</p>
+        </div>
+        <div class="about-facts">
+          <div class="fact-card">
+            <span class="fact-number" data-config="factYears">2+</span>
+            <span class="fact-label">Years Experience</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-number" data-config="factProjects">10+</span>
+            <span class="fact-label">Projects Completed</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-number" data-config="factCoffee">∞</span>
+            <span class="fact-label">Cups of Coffee</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-inner">
+        <p class="contact-text" data-config="contactText">Have a project in mind or want to collaborate? Drop me a message and I'll get back to you as soon as possible.</p>
+
+        <!-- ✉️ Contact Form — powered by Formspree (set formspreeId in script.js CONFIG) -->
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cfName">Name</label>
+              <input type="text" id="cfName" name="name" placeholder="Your name" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="cfEmail">Email</label>
+              <input type="email" id="cfEmail" name="email" placeholder="your@email.com" required autocomplete="email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="cfMessage">Message</label>
+            <textarea id="cfMessage" name="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+          </div>
+          <div class="form-footer">
+            <button type="submit" class="btn btn-primary" id="formSubmitBtn">
+              <span class="btn-label">Send Message</span>
+              <span class="btn-spinner" aria-hidden="true"></span>
+            </button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </div>
+        </form>
+
+        <div class="contact-divider">
+          <span>or reach me directly</span>
+        </div>
+
+        <a class="contact-email" id="contactEmailLink" href="#" data-config="contactEmail">hello@yourname.com</a>
+
+        <div class="social-links" id="socialLinks"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER — Credits must not be removed -->
+  <footer class="footer">
+    <p>Made with <span class="footer-heart">❤️</span> by <span class="footer-author" data-config="footerAuthor">sae.py</span>&nbsp;|&nbsp;<span class="footer-org" data-config="footerOrg">SynthX Development</span>&nbsp;·&nbsp;&copy;&nbsp;<span id="footerYear">2026</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
