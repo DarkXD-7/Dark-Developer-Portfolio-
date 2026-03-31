@@ -1,7 +1,7 @@
 # Developer Porfolio 
-
-A clean, dark-themed developer portfolio template — zero dependencies, no build tools, pure HTML/CSS/JS. Just edit one config object and ship.
 ---
+A clean, dark-themed developer portfolio template — zero dependencies, no build tools, pure HTML/CSS/JS. Just edit one config object and ship.
+
 [![Preview](preview.png)](https://dev-sae.vercel.app)
 ---
 
